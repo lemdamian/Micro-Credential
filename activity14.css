@@ -1,0 +1,62 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+/*Menu*/
+.openMenu{
+    background-color: aqua;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 0.5em;
+}
+.openMenu:hover{
+    background-color: blue;
+    color: beige;
+}
+.openMenu:after{
+    content:'\26BD';
+    float: right;
+}
+.menu{
+    background-color: blanchedalmond;
+    transition: ease-in-out 1s;
+    opacity: 0;
+}
+.menu a{
+    display: block;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.menu a:hover{
+    background-color: rgb(196, 176, 215);
+    color: rgb(85, 198, 88);
+    box-shadow: 1px 1px 5px black;
+}
+.active{
+    background-color: darkblue;
+    color: whitesmoke;
+}
+.active:after{
+    content: "\2715";
+}
+.openClose{
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+/*FORM*/
+.submit1{
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}
+.submit1:hover{
+    background-color: whitesmoke;
+    color: brown;
+    border: none;
+    box-shadow: 0px 0px 5px;
+}

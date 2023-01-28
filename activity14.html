@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 14 - Damian Lema</title>
+    <link rel="stylesheet" href="activity14.css">
+</head>
+<body>
+    <h1>Damian Lema</h1>
+    <button class="openMenu">
+        Menu
+    </button>
+    <nav class="menu">
+        <a href="https://www.qcc.cuny.edu/">QCC</a>
+        <a href="https://www.cuny.edu/">CUNY</a>
+    </nav>
+    <h1>FORMS</h1>
+    <form action="formSent.html" method="post">
+        <fieldset>
+            <legend>Enter personal info</legend>
+        <input type="submit" value="SUBMIT" class="submit1">
+        <p>Enter username</p>
+        <input type="text" name="username" id="" maxlength="20" placeholder="Eneter a username" id="user">
+        <p>Enter a password</p>
+        <input type="password" name="password" placeholder="Enter a password">
+        <p>Gender</p>
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other">
+        <p>Hobbies?</p>
+        <label for="swiming">Swiming</label>
+        <input type="checkbox" name="hobbies" id="swiming">
+        <label for="reading">Reading</label>
+        <input type="checkbox" name="hobbies" id="reading">
+        <label for="walking">Walking</label>
+        <input type="checkbox" name="hobbies" id="walking">
+    </fieldset>
+    <fieldset>
+        <legend>Appointments</legend>
+        <label for="date">Select date:</label>
+        <input type="date" id="date">
+        <label for="email">Email address</label>
+        <input type="email" id="email">
+    </fieldset>
+    </form>
+<!--Youtube search-->
+    <form action="https://www.youtube.com/results">
+        <fieldset>
+        <input type="search" placeholder="Type your search" name="search_query">
+        <button>Search YouTube</button>
+    </fieldset>
+    </form>
+<!--GOOGLE SEARCH-->
+    <form action="https://www.google.com/search">
+        <fieldset>
+        <input type="search" placeholder="Search Google" name="q">
+        <button>Search in Google</button>
+    </fieldset>
+    </form>
+
+<!--JS-->
+    <script src="activity14.js"></script>
+</body>
+</html>
